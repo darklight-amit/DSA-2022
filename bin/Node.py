@@ -28,5 +28,6 @@ class Node:
     
     def print(self):
         print("->", self.data, end="")
-        if self.hasNExt():
+        if self.hasNext():
             self.next.print()
+
