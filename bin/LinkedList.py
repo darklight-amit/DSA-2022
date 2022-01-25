@@ -48,4 +48,4 @@ class LinkedList:
                 
             previous_cursor.next = current_cursor.next
             current_cursor.setNext(None)
-            
+        Node.length -= 1
